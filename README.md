@@ -7,6 +7,7 @@ Un jeu d'adresse minimaliste et frénétique sur le thème de l'espace, dévelop
 > Vous ne contrôlez pas le vaisseau. Vous contrôlez sa **phase**.
 > Changez la couleur de votre vaisseau (Bleu 🔵 ou Violet 🟣) pour correspondre aux murs d'énergie qui foncent sur vous. Touchez la mauvaise couleur, et c'est la fin du voyage !
 
+Vous pouvez allez le tester sur mon site : https://portfolio-turnex.gamer.gd/
 ---
 
 ## ✨ Fonctionnalités
