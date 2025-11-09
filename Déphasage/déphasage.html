@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu du Déphasage</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png" href="déphasage_logo.png">
+    <link rel="stylesheet" href="css_déphasage.css">
+</head>
+<body>
+
+    <div id="scoreboard-container">
+        <h2><i class="fas fa-trophy"></i> CLASSEMENT</h2>
+        <ol id="scoreboard-list"></ol>
+    </div>
+
+    <div id="game-container">
+        <canvas id="gameCanvas"></canvas>
+
+        <div id="ui-overlay">
+            <div id="score-container">
+                SCORE: <span id="score">0</span>
+            </div>
+            <div id="highscore-container">
+                HIGHSCORE: <span id="highscore">0</span>
+            </div>
+        </div>
+
+        <div id="menu-overlay">
+            <h1 id="menu-title">DÉPHASAGE</h1>
+            <input type="text" id="pseudo-input" placeholder="ENTREZ VOTRE PSEUDO" maxlength="10">
+            <p id="menu-subtitle">Cliquez ou [Espace] pour démarrer</p>
+        </div>
+        
+        <div id="sound-button">
+            <i class="fas fa-volume-up"></i> </div>
+    </div>
+    
+    <script src="JavaScript_déphasage.js"></script>
+</body>
+</html>
