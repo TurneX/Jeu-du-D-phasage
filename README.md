@@ -10,6 +10,10 @@ Un jeu d'adresse minimaliste et frénétique sur le thème de l'espace, dévelop
 Vous pouvez allez le tester sur mon site : [https://portfolio-turnex.gamer.gd/](https://portfolio-turnex.gamer.gd/HTML/d%C3%A9phasage.html)
 ---
 
+⚠️Le code n'est pas le code final comme sur mon site, il ne peut enregistrer que les scores locaux et n'a pas toutes les améliorations visuelles
+
+---
+
 ## ✨ Fonctionnalités
 
 * **Gameplay Addictif :** Simple à apprendre, difficile à maîtriser.
@@ -44,3 +48,5 @@ Vous pouvez allez le tester sur mon site : [https://portfolio-turnex.gamer.gd/](
     * Rendu sur le `<canvas>`
     * API Web Audio (pour les sons générés en direct)
     * `localStorage` (pour la sauvegarde du classement et du highscore)
+ 
+  
